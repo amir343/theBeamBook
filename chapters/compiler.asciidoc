@@ -716,7 +716,8 @@ of functions to manipulate abstract forms -- Syntax Tools.
 ==== Leex
 
 Leex is the Erlang lexer generator.
-The lexer generator takes a description of a DFA from a definitions
+The lexer generator takes a description of a
+deterministic finite automata (DFA) from a definition
 file +xrl+ and produces an Erlang
 program that matches tokens described by the DFA.
 
